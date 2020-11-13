@@ -45,7 +45,7 @@ with open (csvpath, newline="") as csvfile:
 
    # Percentage of votes
     for x in vote_list:
-        percent_list = [(x/total_votes) * 100, 1]
+        percent_list.append(x/total_votes * 100)
     print(percent_list)
 
 # Winner
