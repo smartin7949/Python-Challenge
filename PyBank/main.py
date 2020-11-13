@@ -34,7 +34,6 @@ with open(csvpath, newline="") as csvfile:
         # count total number of months
         total_months = total_months + 1 
 
-        
         # find the net amount of profit and loss
         total_revenue.append(int(row[1]))
         months.append(row[0])
